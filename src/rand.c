@@ -7,6 +7,7 @@ void init_rand(void)
 	srand(time(NULL));
 }
 
+// TO: use a better random generator
 int random_int(int max)
 {
 	return rand() % max;
