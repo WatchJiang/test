@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+//watch test
+
 void init_rand(void)
 {
 	srand(time(NULL));
